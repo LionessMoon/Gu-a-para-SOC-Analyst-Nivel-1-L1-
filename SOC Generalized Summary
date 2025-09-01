@@ -1,0 +1,112 @@
+# 🛡️ Guía SOC Analyst Nivel 1 (L1)  
+
+Este repositorio está diseñado para ayudar a quienes están iniciando en el mundo de la **Ciberseguridad**, especialmente en el rol de **SOC Analyst Nivel 1 (L1)**.  
+Un analista SOC es la primera línea de defensa contra incidentes de seguridad, y aquí encontrarás recursos, laboratorios y una ruta de aprendizaje para comenzar.  
+
+---
+
+## 📖 Contenido
+
+1. [Introducción al SOC](#introducción-al-soc)  
+2. [Responsabilidades de un SOC Analyst L1](#responsabilidades-de-un-soc-analyst-l1)  
+3. [Conocimientos Técnicos Clave](#conocimientos-técnicos-clave)  
+4. [Herramientas Relevantes](#herramientas-relevantes)  
+5. [Laboratorios y Recursos Prácticos](#laboratorios-y-recursos-prácticos)  
+6. [Roadmap SOC Analyst](#roadmap-soc-analyst)  
+7. [Recursos Adicionales](#recursos-adicionales)  
+8. [Contribuir](#contribuir)  
+
+---
+
+## 📌 Introducción al SOC
+
+Un **Security Operations Center (SOC)** es un equipo especializado en **monitorear, detectar, responder y prevenir incidentes de seguridad** dentro de una organización.  
+
+Los roles dentro de un SOC suelen dividirse en niveles:  
+- **L1 – Analyst:** Primer filtro de alertas.  
+- **L2 – Analyst:** Análisis más profundo, correlación y respuesta avanzada.  
+- **L3 – Expert / Threat Hunter:** Investigación avanzada, detección de amenazas persistentes.  
+- **Incident Response (IR):** Contención y remediación.  
+
+---
+
+## 📌 Responsabilidades de un SOC Analyst L1
+
+Un analista de nivel 1 cumple funciones clave:  
+- Monitorear alertas en un **SIEM**.  
+- Realizar **triage de eventos** (determinar si son falsos positivos o incidentes reales).  
+- Escalar incidentes críticos a L2 o L3.  
+- Documentar hallazgos y generar reportes.  
+- Seguir **playbooks** definidos por la organización.  
+
+---
+
+## 📌 Conocimientos Técnicos Clave
+
+Para desempeñarse como SOC Analyst L1, se recomienda dominar:  
+
+🔹 **Redes**  
+- TCP/IP, UDP  
+- HTTP/HTTPS  
+- DNS  
+- VPNs y firewalls  
+
+🔹 **Logs**  
+- Windows Event Viewer  
+- Sysmon  
+- Logs en Linux (`/var/log/`)  
+- Logs de aplicaciones web  
+
+🔹 **Ciberseguridad**  
+- Indicadores de compromiso (IoCs)  
+- Conceptos de malware, phishing, ransomware  
+- MITRE ATT&CK Framework  
+- Buenas prácticas de hardening  
+
+🔹 **SIEM** (Security Information and Event Management)  
+- Splunk  
+- ELK Stack (Elasticsearch, Logstash, Kibana)  
+- IBM QRadar  
+- Microsoft Sentinel  
+
+---
+
+## 📌 Herramientas Relevantes
+
+Aquí algunas herramientas que un SOC Analyst L1 debería conocer:  
+
+- 🔎 **Wireshark** → Análisis de tráfico de red.  
+- 📊 **Kibana / Grafana** → Visualización de logs.  
+- ⚡ **Sysmon** → Telemetría avanzada en Windows.  
+- 🔐 **VirusTotal / Hybrid Analysis** → Revisión de archivos sospechosos.  
+- 🛠️ **Sigma Rules** → Detección basada en reglas.  
+- 🛡️ **MITRE ATT&CK Navigator** → Mapeo de técnicas de ataque.  
+
+---
+
+## 📌 Laboratorios y Recursos Prácticos
+
+### 🧪 Plataformas de práctica  
+- [TryHackMe SOC Room](https://tryhackme.com/) → Rutas de Blue Team y SOC.  
+- [Blue Team Labs Online](https://blueteamlabs.online) → Retos de detección.  
+- [RangeForce Community](https://go.rangeforce.com/community-edition) → Laboratorios interactivos.  
+- [AttackIQ Academy](https://academy.attackiq.com/) → Simulaciones de ataques.  
+- [DetectionLab](https://github.com/clong/DetectionLab) → Entorno para práctica en casa.  
+
+### 📂 Datasets y Logs públicos  
+- [Security Datasets](https://securitydatasets.com/)  
+- [EVTX Samples](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)  
+- [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/)  
+
+---
+
+## 📌 Roadmap SOC Analyst
+
+```mermaid
+graph TD
+  A[Aprender Fundamentos de Redes] --> B[Conocer Logs y Sistemas Operativos]
+  B --> C[Aprender SIEMs Básicos]
+  C --> D[Practicar con Laboratorios]
+  D --> E[Dominar MITRE ATT&CK]
+  E --> F[Practicar Escenarios Reales]
+  F --> G[Aplicar a roles SOC L1]
