@@ -27,9 +27,9 @@ Este repositorio está diseñado para ayudar a personas que están iniciando en 
 
 5. **Roadmap SOC Analyst**  
 
-    Roadmap SOC Analyst L1 (2025)
-![Roadmap SOC Analyst L1]
-(./assets/roadmap_soc.png)
+![Roadmap SOC Analyst L1](./assets/roadmap_soc.png)
+
+
 
 
 ##  Contribuir
