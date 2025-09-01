@@ -26,7 +26,10 @@ Este repositorio está diseñado para ayudar a personas que están iniciando en 
    - [Sigma Rules](https://github.com/SigmaHQ/sigma)  
 
 5. **Roadmap SOC Analyst**  
-   ![Roadmap](ruta/a/tu/imagen.png)  
+
+    Roadmap SOC Analyst L1 (2025)
+![Roadmap SOC Analyst L1](./assets/roadmap_soc.png)
+
 
 ##  Contribuir
 ¿Quieres aportar más recursos? Abre un Pull Request o Issue.
